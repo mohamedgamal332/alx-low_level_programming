@@ -1,4 +1,2 @@
 #!/bin/bash
-
-CFILE=$1
-gcc -E $CFILE > c
+gcc -E $1 > c
