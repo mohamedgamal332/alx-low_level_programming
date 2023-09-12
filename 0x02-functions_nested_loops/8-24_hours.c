@@ -18,10 +18,10 @@ void jack_bauer(void)
 		while (s < 60)
 		{
 			s++;
-			_putchar(i)
-			_putchar(':')
-			_putchar(s)
-			_putchar('\n')
+			_putchar(i);
+			_putchar(':');
+			_putchar(s);
+			_putchar('\n');
 		}
 	}
 }
