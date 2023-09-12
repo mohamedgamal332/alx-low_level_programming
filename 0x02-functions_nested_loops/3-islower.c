@@ -1,12 +1,11 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
- * _islower - accepts an int c
+ *_islower - controls if a character is in lowercase
  *
- * @c is an integer that is passed to the function (internally a char)
+ *@c: character to be verified
  *
- * Return: 1 if lower and 0 if non lower
+ *Return: return 0 or 1
  */
 
 int _islower(int c)
