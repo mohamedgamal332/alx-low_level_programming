@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define NEWLINE '\n'
+
 /**
  * main - Entry point
  *
@@ -12,8 +14,9 @@ int main(void)
 
 	for (c = 0; c <= 9; ++c)
 	{
-		printf("%d", c);
+		f = (char) c;
+		putchar(f);
 	}
-	printf("\n");
+	putchar(NEWLINE)
 	return (0);
 }
