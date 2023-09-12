@@ -20,12 +20,12 @@ int main(void)
  * Return: Always 0.
  */
 
-int print_alphabet(void)
+char print_alphabet(void)
 {
 	for (char i = "a"; i <= "z"; ++i)
 	{
 		_putchar(i);
 	}
 
-	return (0);
+	return ("0");
 }
